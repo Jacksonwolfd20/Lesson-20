@@ -1,18 +1,25 @@
-.lesson  {
-  background-color: lemonchiffon;
+*{
+  font-family: font-family: 'Ubuntu', sans-serif;;
+}
+header{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  border-bottom: 10px solid gold;
+  text-align: right;
+
+}
+.link{
+  font-weight: bolder;
+  font-size: xx-large;
+  color: gold;
+  display: inline;
 }
 
-#paragraph-1 {
-  color: darkslateblue;
-  background-color: white;
-}
-
-#paragraph-2 {
-  color: darkslateblue;
-  background-color: darkorange;
-}
-
-#paragraph-3 {
-    color: white;
-    background-color: darkslateblue;
+#picture{
+  border: 15px gold;
+  border-style: solid;
+  display:block
 }
